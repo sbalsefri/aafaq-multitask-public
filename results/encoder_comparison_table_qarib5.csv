@@ -1,0 +1,6 @@
+Encoder,Test Mean F1
+MARBERTv2 (5-seed),0.8963 ± 0.0047
+"QARiB (5-seed, n=5)",0.8994 ± 0.0032
+ARBERTv2 (1-seed),0.8827
+AraBERT v02 (1-seed),0.8587
+CAMeLBERT-Mix (1-seed),0.8553

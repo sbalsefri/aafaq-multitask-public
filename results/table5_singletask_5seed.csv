@@ -1,0 +1,10 @@
+Task,MultiTask_mean,MultiTask_std,SingleTask_mean,SingleTask_std,Delta_mean
+Intent,0.9437,0.011,0.936,0.0093,0.0078
+AnswerType,0.8733,0.0052,0.8582,0.0126,0.0151
+CognitiveLevel,0.7969,0.0127,0.7863,0.0077,0.0106
+QuestionParticleType,0.9951,0.0089,1.0,0.0,-0.0049
+QuestionType,0.9133,0.0073,0.9013,0.0025,0.012
+Subjectivity,0.9434,0.0093,0.9473,0.0073,-0.0039
+TemporalContext,0.8203,0.0204,0.8083,0.0171,0.012
+PurposeContext,0.8495,0.0116,0.8575,0.0262,-0.008
+List,0.931,0.0073,0.9303,0.0103,0.0007

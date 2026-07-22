@@ -1,0 +1,11 @@
+Task,Delta,CI90_low,CI90_high,TOST_p,equivalent_pm0.02
+Intent,0.0082,-0.0035,0.0218,0.076,False
+AnswerType,0.0155,-0.0158,0.046,0.4115,False
+CognitiveLevel,0.0106,-0.0021,0.0229,0.104,False
+QuestionParticleType,-0.0053,-0.0148,0.0,0.0175,True
+QuestionType,0.0118,0.0002,0.0229,0.1155,False
+Subjectivity,-0.004,-0.0131,0.0045,0.005,True
+TemporalContext,0.0139,-0.0153,0.0471,0.3475,False
+PurposeContext,-0.0085,-0.0368,0.0178,0.234,False
+List,0.0006,-0.013,0.0143,0.0085,True
+Mean macro-F1,0.0048,-0.0016,0.0116,0.0005,True

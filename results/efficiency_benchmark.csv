@@ -1,0 +1,3 @@
+Setup,Parameters,Disk (MB),Inference (ms/batch),Peak GPU (GB)
+1 multi-task model,163M,652,200.4,0.80
+9 single-task models,1466M,5863,2254.7,0.80 (per model)

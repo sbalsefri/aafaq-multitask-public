@@ -1,0 +1,538 @@
+task,question,true_label,pred_label,confidence
+AnswerType,من هو مؤلف كتاب لايبر سيرفيتوريس؟,وصف,عاقل,0.9709546
+Intent,ما الذي يميز التعلم الذاتي عن غيره؟,Informational,Comparison,0.9539064
+List,عدد أنواع الطاقة المتجددة المعروفة.,Single,List,0.9501873
+PurposeContext,أيان يجب على الشركات الناشئة مراجعة استراتيجياتها المالية؟,Problem solving,Decision Making,0.9488813
+List,اذكر بعض التطبيقات العملية للذكاء الاصطناعي.,Single,List,0.94628304
+AnswerType,عدد أنواع الطاقة المتجددة المعروفة.,رقم,Entity,0.9404825
+AnswerType,أي الصحابة قادوا الجيوش الإسلامية في حروب الردة؟,Entity,عاقل,0.9390904
+AnswerType,كيف يمكن الحفاظ على المياه؟,وصف,حال,0.93824255
+CognitiveLevel,لماذا تُفضلُ السفرَ للعمل؟,Application,Evaluation,0.93392855
+AnswerType,عدِّدْ أنواع المناخ.,وصف,Entity,0.93176067
+AnswerType,أي بحر يقع بين أوروبا وأفريقيا؟,مكان,Entity,0.92784667
+List,ما هي العوامل التي تؤدي إلى التصحر؟,Single,List,0.92440456
+AnswerType,ماذا لو كانت هناك مخلوقات بحرية تستطيع الطيران؟,وصف,حال,0.9224711
+PurposeContext,كيف يمكن تحسين أداء الطلاب في المدارس؟,Information Gathering,Problem solving,0.92228997
+CognitiveLevel,أينَ تُحبُّ قضاءَ وقتِ الفراغ؟,Application,Evaluation,0.91569555
+PurposeContext,احسب المسافة بين الأرض والقمر.,Information Gathering,Problem solving,0.9060679
+CognitiveLevel,كيف يمكن دعم الابتكار في الشركات؟,Understanding,Application,0.90426004
+CognitiveLevel,كيف يمكن دعم الابتكار في الشركات؟,Analysis,Application,0.90426004
+PurposeContext,احسب المسافة بين الأرض والشمس.,Information Gathering,Problem solving,0.89977145
+AnswerType,عدِّدْ أشكال الجبال.,وصف,Entity,0.8986078
+List,اذكر أحد الكتب التي كتبها سيد قطب عن إعجاز القرآن.,Single,List,0.8984935
+TemporalContext,متى تم تأسيس الأمم المتحدة؟,Present,Past,0.8979074
+CognitiveLevel,اشرحْ عملية البناء الضوئي في النباتات.,Analysis,Application,0.89692026
+CognitiveLevel,بم يُقاس الزمن؟,Knowledge,Application,0.8925008
+Intent,كيف يمكن تحسين أداء الطلاب في المدارس؟,Explanation,Suggestion,0.89207673
+CognitiveLevel,احسب المسافة بين الأرض والشمس.,Knowledge,Application,0.89044625
+TemporalContext,من قام الأردن بإبرام اتفاقيات معه في مجال الزراعة؟,Not Time-Related,Past,0.8818578
+List,ما هو دور الحكومة في تنظيم الاقتصاد؟,Single,List,0.876884
+AnswerType,بم يُقاس الزمن؟,وصف,رقم,0.87615895
+PurposeContext,احسب تكلفة تنفيذ مشروع الطاقة الشمسية لمدينة صغيرة؟,Decision Making,Problem solving,0.8755439
+Intent,كيف يمكن دعم الابتكار في الشركات؟,Explanation,Suggestion,0.873569
+Intent,كيف يمكن دعم الابتكار في الشركات؟,Explanation,Suggestion,0.873569
+List,ما هي أسباب تلوث المياه العذبة؟,Single,List,0.873345
+CognitiveLevel,كيف يمكن تحسين جودة الهواء في المناطق الصناعية؟,Analysis,Application,0.87190366
+AnswerType,عدِّدْ مكونات الخلية النباتية.,وصف,Entity,0.8717313
+CognitiveLevel,لماذا يعتبر الابتكار مفتاح النجاح في قطاع التكنولوجيا؟,Application,Analysis,0.86832905
+CognitiveLevel,أينَ تُحبُّ ممارسةَ الرياضة؟,Knowledge,Evaluation,0.862879
+TemporalContext,متى توفي رسول الله محمد بن عبد الله؟,Specific time,Past,0.85497034
+PurposeContext,"اعرب الجملة التالية: ""العلم نور.""",Information Gathering,Problem solving,0.84401447
+PurposeContext,فيمَ تقضي عطلاتِك؟,Information Gathering,Social interaction,0.84346163
+QuestionType,اقترحْ برامج لتطوير المهارات المهنية.,Factual,Non-Factual,0.8433545
+QuestionType,اقترحْ أفكارًا لمشروع بيئي.,Factual,Non-Factual,0.8403456
+CognitiveLevel,كيف يمكن تحسين أداء الطلاب في المدارس؟,Analysis,Application,0.8402533
+AnswerType,كيف يتم تحديد سرعة الضوء؟,وصف,حال,0.8280954
+CognitiveLevel,أينَ تحبُّ قضاءَ العطلات؟,Knowledge,Evaluation,0.823061
+List,استعرض أحدث الابتكارات في مجال السيارات الكهربائية.,Single,List,0.8093257
+TemporalContext,أين امتدت الدولة الأموية؟,Not Time-Related,Past,0.8091158
+List,قارن بين نظرية الانفجار العظيم ونظرية الحالة الثابتة.,Single,List,0.80902165
+AnswerType,كيف يتم استخراج النفط من باطن الأرض؟,وصف,حال,0.80616945
+List,اذكر مفهوم الإعجاز لغةً.,Single,List,0.795389
+List,ما هي الممارسات التي تقوم بها بعض الصيدليات المجتمعية؟,Single,List,0.79476607
+PurposeContext,رتِّبْ الخطوات الأساسية لإعداد تجربة علمية.,Information Gathering,Decision Making,0.7936373
+AnswerType,بم تُقاس المسافة بين النجوم؟,وصف,رقم,0.7897767
+AnswerType,اذكر بعض الأعمال التي قام بها عبد الملك بن مروان.,وصف,Entity,0.7863651
+AnswerType,اذكر ثلاثة استخدامات لتقنية النانو.,وصف,Entity,0.77782977
+List,وضح الموارد التي تتكون منها المياه في الأردن.,Single,List,0.77618766
+TemporalContext,لماذا لقب الدكتور مجدي يعقوب بأسطورة الطب في العالم؟,Present,Past,0.77597207
+PurposeContext,وضح الفرق بين التعليم التقليدي والتعليم الإلكتروني.,Information Gathering,Problem solving,0.77019966
+Intent,فيمَ تكمن أهمية الصحة النفسية؟,Informational,Suggestion,0.76579714
+AnswerType,متى تم إطلاق سكاي ديجيتال؟,رقم,تاريخ,0.76562846
+Subjectivity,استنتج التأثير المحتمل لنمو التجارة الإلكترونية على المتاجر التقليدية.,Objective,Subjective,0.7572988
+QuestionType,كيف يمكن تحسين أداء الطلاب في المدارس؟,Factual,Non-Factual,0.75031114
+PurposeContext,لماذا تعد دراسة الجدوى أهم خطوات إعداد المشروع؟,Information Gathering,Decision Making,0.7492994
+CognitiveLevel,لماذا يعتبر توثيق صفحات فيس بوك الشخصية ضروريًا؟,Understanding,Analysis,0.7489455
+PurposeContext,رتِّبْ الخطوات الأساسية لكتابة رسالة رسمية.,Problem solving,Decision Making,0.74438137
+List,حدد أهم أسباب التصحر في مناطق شبه صحراوية.,Single,List,0.74335206
+AnswerType,كم كانت النسبة المئوية لسكان وارسو من البروتستانت في عام 1901؟,كمية,رقم,0.7398444
+List,قارن بين الأدب النثري والشعري.,Single,List,0.72939086
+CognitiveLevel,كيفَ تُفضلُ قضاءَ وقتِ الفراغ؟,Understanding,Evaluation,0.7249532
+AnswerType,إلام يمكن أن يؤدي استمرار التدهور البيئي؟,وصف,ظرف زمان,0.720774
+QuestionType,أنى يمكن للشركات تحقيق التميز في السوق التنافسية؟,Factual,Non-Factual,0.71994954
+Subjectivity,ما هو أجمل أنهار العالم؟,Subjective,Objective,0.7194072
+List,اقترح طرقًا لتحسين جودة الهواء في المناطق الحضرية.,Single,List,0.7183228
+CognitiveLevel,في أي جهة من الطريق الحرة 99 يقع الجانب الغربي للمدينة؟,Understanding,Knowledge,0.71577173
+TemporalContext,كيف يمكن دعم الابتكار في الشركات؟,Not Time-Related,Present,0.71450037
+TemporalContext,كيف يمكن دعم الابتكار في الشركات؟,Not Time-Related,Present,0.71450037
+AnswerType,من هو الحاكم الألماني الذي دعا الهوغونتيين للهجرة؟,وصف,عاقل,0.70908576
+CognitiveLevel,لماذا تتساقط الأسنان عند الكبر؟,Understanding,Analysis,0.7080439
+QuestionType,قارن بين الأدب النثري والشعري.,Factual,Non-Factual,0.7040942
+List,ما هو تأثير الكازين على السرطان وفقًا لبعض الدراسات؟,Single,List,0.7024459
+QuestionType,اذكر بعض التطبيقات العملية للذكاء الاصطناعي.,Factual,Non-Factual,0.701366
+Intent,كيف يمكن الحفاظ على المياه؟,Suggestion,Explanation,0.6981479
+List,ما هي الحضارة التي أسسها الأمويون في الأندلس؟,Single,List,0.69657093
+List,أي دولة تتحدث اللغة الإسبانية كلغة رسمية؟,Single,List,0.6927965
+CognitiveLevel,إذا كان بإمكانك السفر إلى العوالم الخيالية، أي عالم ستختار؟,Understanding,Analysis,0.6917869
+CognitiveLevel,ما هو أهمُ هدفٍ في حياتِك؟,Application,Evaluation,0.6903384
+PurposeContext,"فيم يستخدم أداة الاستفهام ""علام""؟",Social interaction,Information Gathering,0.6876332
+QuestionType,اشرحْ أهمية الابتكار في العمل.,Factual,Non-Factual,0.6841184
+QuestionType,"ماذا يعني مصطلح ""الاقتصاد الأخضر""؟",Factual,Non-Factual,0.68276995
+CognitiveLevel,ما الذي يميز التعلم الذاتي عن غيره؟,Understanding,Analysis,0.68097085
+Intent,فيمَ تكمن أهمية التعليم العالي؟,Informational,Suggestion,0.6807381
+CognitiveLevel,ما الفرق بين الكائنات الحية وحيدة الخلية ومتعددة الخلايا؟,Knowledge,Analysis,0.6773357
+PurposeContext,"اعرب الجملة: ""المعلم يشرح الدرس بوضوح.""",Information Gathering,Problem solving,0.6771688
+CognitiveLevel,ممَّ تتعلمُ الأشياءَ الجديدة؟,Knowledge,Understanding,0.672403
+QuestionType,اشرحْ فوائد التكنولوجيا الحديثة.,Factual,Non-Factual,0.6702611
+QuestionType,ميِّزْ بين التعليم الإلكتروني والتعليم التقليدي.,Factual,Non-Factual,0.6674564
+List,"رتبْ الكلماتَ التاليةَ: ""البستانُ جميلٌ.""",Single,List,0.66739655
+List,اقترحْ وسيلةً لتحسينِ العلاقات.,Single,List,0.66725296
+List,اقترحْ كتابًا للأطفال.,Single,List,0.66564304
+QuestionType,"ماذا يعني مفهوم ""الثورة الصناعية""؟",Non-Factual,Factual,0.6650608
+AnswerType,ممَ تُصنع النقود؟,وصف,Entity,0.66331273
+CognitiveLevel,كيف يتشابه طهي الطعام على النار مع التعرض لفحم الكوك؟,Knowledge,Understanding,0.6626912
+QuestionType,ما هي الخطوات الأساسية لبدء مشروع تقني صغير؟,Factual,Non-Factual,0.66201186
+QuestionType,فيمَ تكمن أهمية الصحة النفسية؟,Factual,Non-Factual,0.6608044
+List,"رتبْ الكلماتَ التاليةَ: ""الأطفالُ يلعبونَ.""",Single,List,0.658323
+AnswerType,من سجل الرقم القياسي العالمي للنساء في رياضة الوثب العالي؟,وصف,رقم,0.6570012
+QuestionType,بم يتميز التعليم الإلكتروني عن التعليم التقليدي؟,Factual,Non-Factual,0.6565171
+CognitiveLevel,ما هو تأثير الكازين على السرطان وفقًا لبعض الدراسات؟,Knowledge,Understanding,0.65651
+CognitiveLevel,"ماذا يعني مصطلح ""الاقتصاد الأخضر""؟",Knowledge,Analysis,0.65464044
+Subjectivity,إلام يمكن أن يؤدي استمرار التدهور البيئي؟,Objective,Subjective,0.65419716
+PurposeContext,اذكر بعض التطبيقات العملية للذكاء الاصطناعي.,Information Gathering,Decision Making,0.6535379
+Intent,ما هي تركيا؟,Informational,Definition,0.65302753
+PurposeContext,رتِّبْ العناصر الكيميائية حسب العدد الذري.,Information Gathering,Decision Making,0.6516788
+Subjectivity,لماذا لا نفقد الوزن رغم اتباع الحمية؟,Objective,Subjective,0.6497852
+PurposeContext,رتب مراحل تطور الحاسوب من الأقدم إلى الأحدث.,Information Gathering,Decision Making,0.6465121
+QuestionParticleType,هل يمكن للحوت الأزرق أن يتنفس تحت الماء؟,Interrogative Tool,Implied,0.64296246
+QuestionParticleType,هل يمكن للإنسان أن يعيش بدون غذاء لفترة طويلة؟,Interrogative Tool,Implied,0.642166
+Subjectivity,لماذا لقب الدكتور مجدي يعقوب بأسطورة الطب في العالم؟,Objective,Subjective,0.64212275
+Subjectivity,لماذا تشكل أفلام الرعب خطورة كبيرة على الصحة؟,Objective,Subjective,0.6390413
+QuestionType,ما هو أجمل أنهار العالم؟,Non-Factual,Factual,0.6382146
+QuestionParticleType,أيمكن للإنسان أن يرى الأشياء بواسطة العيون؟,Interrogative Tool,Implied,0.6365983
+QuestionParticleType,أيوجد الماء في حالات صلبة وسائلة وغازية؟,Interrogative Tool,Implied,0.63638115
+Intent,ماذا يحدث في تجربة فصل الضوء الأبيض؟,Informational,Explanation,0.63573986
+Subjectivity,كيف يمكن التعامل مع الضغوط النفسية؟,Objective,Subjective,0.6354626
+Subjectivity,اقترحْ وسيلةً لتحسينِ العلاقات.,Objective,Subjective,0.63507694
+List,وضح الفرق بين التعليم التقليدي والتعليم الإلكتروني.,Single,List,0.63419574
+QuestionType,لماذا يعتبر الابتكار مفتاح النجاح في الشركات الناشئة؟,Factual,Non-Factual,0.63046557
+QuestionType,اشرحْ فوائد ممارسة الرياضة اليومية.,Factual,Non-Factual,0.6304132
+List,عدد الكواكب في النظام الشمسي.,Single,List,0.6299529
+Subjectivity,كيف يمكن تحقيق التنمية المستدامة؟,Objective,Subjective,0.62936205
+CognitiveLevel,لماذا تعتبر الرياضيات العلم النظري الرئيسي؟,Understanding,Analysis,0.6292447
+QuestionType,رتِّبْ الخطوات الأساسية لإعداد تجربة علمية.,Factual,Non-Factual,0.6273879
+List,أيان يجب على الشركات الناشئة مراجعة استراتيجياتها المالية؟,Single,List,0.6273698
+QuestionType,بم تتميز الألياف الضوئية عن الأسلاك التقليدية في نقل البيانات؟,Factual,Non-Factual,0.62697244
+QuestionType,لماذا يعتبر الابتكار مفتاح النجاح في قطاع التكنولوجيا؟,Factual,Non-Factual,0.6260951
+QuestionParticleType,أيمكن للإنسان أن يشعر بالحرارة والبرودة؟,Interrogative Tool,Implied,0.6256921
+QuestionType,لماذا يُعتبر التعليم من أهم أدوات التنمية الاقتصادية؟,Factual,Non-Factual,0.62530315
+Intent,فيمَ تكمن أهمية الابتكار؟,Informational,Suggestion,0.62489283
+CognitiveLevel,ما هو تأثير اضطراب الساعة البيولوجية على إنتاج هرمون الميلاتونين؟,Knowledge,Understanding,0.62484044
+AnswerType,اذكر مفهوم الإعجاز لغةً.,وصف,Entity,0.6241328
+List,أي بحر يقع بين أوروبا وأفريقيا؟,Single,List,0.62377137
+CognitiveLevel,فيمَ تقضي عطلاتِك؟,Knowledge,Understanding,0.6236742
+List,أي كوكب في النظام الشمسي يُعرف بالكوكب العملاق؟,Single,List,0.6236675
+QuestionParticleType,هل يعتبر الأوكسجين ضرورياً لعملية التنفس؟,Interrogative Tool,Implied,0.62307084
+AnswerType,من الشخص الذي سُميت جادة كيرني تيمنا باسمه؟,وصف,عاقل,0.621052
+QuestionParticleType,هل يمكن للإنسان أن يرى الأشياء بدون الضوء؟,Interrogative Tool,Implied,0.6186628
+QuestionParticleType,أيمكن للطيور أن تعيش في الماء؟,Interrogative Tool,Implied,0.6183719
+Subjectivity,اقترحْ كتابًا للأطفال.,Objective,Subjective,0.61759245
+QuestionType,أيان يجب على الشركات الناشئة مراجعة استراتيجياتها المالية؟,Factual,Non-Factual,0.6163413
+QuestionParticleType,أيتكون الرمل من جزيئات صغيرة من الصخور؟,Interrogative Tool,Implied,0.6158093
+QuestionType,ما هي العوامل التي تؤدي إلى التصحر؟,Factual,Non-Factual,0.614738
+QuestionType,عدِّدْ فوائد الموسيقى.,Factual,Non-Factual,0.61459714
+TemporalContext,ما هي البلد الذي لديه معظم المسلمين في العالم؟,Not Time-Related,Present,0.6145333
+QuestionType,فيمَ تكمن أهمية التعليم العالي؟,Factual,Non-Factual,0.6140648
+List,ما هو نصيب المسلمين من الأراضي المفتوحة في عهد عمر؟,Single,List,0.6135352
+List,رتبْ الأرقامَ الآتيةَ تصاعدياً: 51، 58، ، 5، 10، 0، 53، 9، 81، 66,Single,List,0.61341715
+QuestionParticleType,هل تُعد الأشجار مصدراً للأوكسجين؟,Interrogative Tool,Implied,0.61182857
+Subjectivity,لماذا يصاب الأطفال بمرض التوحد؟,Objective,Subjective,0.6102526
+List,أي من خلف جنكيز خان طرد المماليك من فلسطين؟,Single,List,0.6093747
+List,ميِّزْ بين الثورة الصناعية والثورة الزراعية.,Single,List,0.6085854
+Subjectivity,لماذا ننام أقل كلما تقدم بنا العمر؟,Objective,Subjective,0.60849124
+QuestionType,لماذا يجب أن يكون لديك إرادة قوية؟,Factual,Non-Factual,0.60844904
+QuestionType,رتِّبْ الخطوات الأساسية لكتابة رسالة رسمية.,Factual,Non-Factual,0.60730195
+CognitiveLevel,عمَّ تدورُ محادثاتُك؟,Knowledge,Understanding,0.607195
+TemporalContext,استنتج أثر التعليم على التنمية الاقتصادية.,Present,Future,0.60689574
+QuestionParticleType,هل تُعد الألماس من المعادن؟,Interrogative Tool,Implied,0.6067347
+Subjectivity,لماذا الرياضة مهمة لنا ولماذا ينصح بممارستها باستمرار؟,Objective,Subjective,0.60366535
+CognitiveLevel,ما هي العلاقة بين الميلاتونين والسرطان؟,Knowledge,Understanding,0.60302126
+TemporalContext,لماذا ظهر تنظيم داعش؟,Present,Past,0.6023671
+CognitiveLevel,لماذا التخلص من الكرش ضروري للحفاظ على الصحة؟,Understanding,Analysis,0.6021407
+List,أي مخلوق بحري يمتلك أذرع طويلة ومتشعبة؟,Single,List,0.6009365
+QuestionType,ما الذي يميز التعلم الذاتي عن غيره؟,Factual,Non-Factual,0.59982216
+QuestionType,فيمَ تكمن أهمية الابتكار؟,Factual,Non-Factual,0.59905964
+List,من كان العدو الرئيسي للنورمان في إيطاليا والإمبراطورية البيزنطية وأرمينيا؟,Single,List,0.5969807
+TemporalContext,ما هو النظام المستخدم للتخزين والتنظيم الإلكتروني للملفات؟,Not Time-Related,Present,0.59578615
+CognitiveLevel,لماذا تسبب مضادات الاكتئاب البدانة؟,Analysis,Understanding,0.59541965
+CognitiveLevel,اشرحْ كيفية عمل البطارية.,Application,Understanding,0.5951781
+PurposeContext,استعرض أحدث الابتكارات في مجال السيارات الكهربائية.,Information Gathering,Decision Making,0.59479475
+AnswerType,ممَ يُصنع السيراميك؟,وصف,Entity,0.59390754
+QuestionParticleType,هل يمكن للإنسان أن يتنفس في الفضاء بدون معدات؟,Interrogative Tool,Implied,0.5936093
+List,من قام الأردن بإبرام اتفاقيات معه في مجال الزراعة؟,Single,List,0.5926431
+Subjectivity,كيف يمكن الحفاظ على المياه؟,Objective,Subjective,0.59187067
+TemporalContext,متى ظهر مفهوم إعجاز القرآن لأول مرة؟,Specific time,Past,0.5917966
+List,ما هي نتيجة الحملة الفرنسية على مصر؟,Single,List,0.58947885
+PurposeContext,لماذا يعتبر التعلم المستمر مهمًا في عصر التكنولوجيا؟,Information Gathering,Decision Making,0.5888737
+Subjectivity,كيف يمكن تقليل الفقر في المجتمع؟,Objective,Subjective,0.5886738
+QuestionParticleType,أيمكن للإنسان أن يعيش بدون قلب؟,Interrogative Tool,Implied,0.5884794
+QuestionType,رتِّبْ العناصر الكيميائية حسب العدد الذري.,Factual,Non-Factual,0.58756983
+TemporalContext,من سجل الرقم القياسي العالمي للنساء في رياضة الوثب العالي؟,Present,Past,0.5864974
+List,عرف ماهية الديمقراطية.,Single,List,0.58549553
+Subjectivity,لماذا يُصيب مرض عمى الألوان بعض الناس؟,Objective,Subjective,0.5854521
+List,ما الذي يسبب صوت الرعد؟,Single,List,0.5839347
+TemporalContext,فيم يستخدم الحاسوب الكمومي؟,Present,Not Time-Related,0.58375835
+CognitiveLevel,لماذا لقب الدكتور مجدي يعقوب بأسطورة الطب في العالم؟,Analysis,Understanding,0.58262557
+List,ما الذي تم تأسيسه تزامنا مع المعاهدة الأوروبية لحقوق الإنسان؟,Single,List,0.58217305
+Subjectivity,لماذا غرائب الصرصور تجعل منه حشرة خارقة؟,Objective,Subjective,0.57979053
+List,ميِّزْ بين التعليم الإلكتروني والتعليم التقليدي.,Single,List,0.5795563
+CognitiveLevel,اذكر بعض المنتجات الزراعية التي حقق الأردن الاكتفاء الذاتي فيها.,Understanding,Knowledge,0.57922184
+Intent,ما هو النظام المستخدم للتخزين والتنظيم الإلكتروني للملفات؟,Definition,Informational,0.57864153
+Subjectivity,لماذا تقوم الأبقار بعملية اجترار الطعام؟,Objective,Subjective,0.57624274
+List,ما هو النظام المستخدم للتخزين والتنظيم الإلكتروني للملفات؟,Single,List,0.5758592
+PurposeContext,عدد بعضًا من شركات إدارة الصيدليات الكبيرة.,Information Gathering,Decision Making,0.5748398
+QuestionType,عرف ماهية الديمقراطية.,Factual,Non-Factual,0.57198817
+Subjectivity,استنتج أثر التعليم على التنمية الاقتصادية.,Objective,Subjective,0.57183903
+Subjectivity,لماذا تظهر علامات تمدد الجلد؟,Objective,Subjective,0.5717283
+CognitiveLevel,ما هي أهمية الرياضة وفوائدها للإنسان؟,Knowledge,Understanding,0.5713273
+List,ما هو أجمل أنهار العالم؟,Single,List,0.57068443
+QuestionType,ما الفرق بين الكائنات الحية وحيدة الخلية ومتعددة الخلايا؟,Factual,Non-Factual,0.57053024
+Subjectivity,لماذا يأكل المسلمون فتة أو وجبة الفتة في عيد الأضحى؟,Objective,Subjective,0.5703252
+QuestionType,عدِّدْ أنواع المناخ.,Factual,Non-Factual,0.56997013
+List,أي نوع من الفاكهة يُعتبر الأكثر استهلاكاً في العالم؟,Single,List,0.5698667
+QuestionType,"عرف مصطلح ""الاستدامة البيئية"".",Factual,Non-Factual,0.5698064
+Subjectivity,استنتج لماذا رفض أبو الحسن الرماني فكرة الصرفة.,Objective,Subjective,0.56859434
+CognitiveLevel,لماذا يأكل المسلمون فتة أو وجبة الفتة في عيد الأضحى؟,Analysis,Understanding,0.5679113
+TemporalContext,اشرحْ مفهوم الثورة الصناعية.,Not Time-Related,Past,0.5672598
+QuestionType,لماذا تعد دراسة الجدوى أهم خطوات إعداد المشروع؟,Factual,Non-Factual,0.56602514
+QuestionParticleType,هل يمكن للذكاء الاصطناعي أن يحل محل البشر في الوظائف؟,Interrogative Tool,Implied,0.5658563
+QuestionType,"عرف مفهوم ""الاستدامة البيئية"".",Factual,Non-Factual,0.5648801
+Subjectivity,اقترحْ أفكارًا لمشروع بيئي.,Objective,Subjective,0.56448114
+QuestionType,"ماذا يعني مصطلح ""الناتج المحلي الإجمالي""؟",Factual,Non-Factual,0.56440985
+QuestionType,اشرحْ عملية البناء الضوئي في النباتات.,Factual,Non-Factual,0.5617006
+Subjectivity,لماذا لا يمكننا الشعور بدوران الأرض؟,Objective,Subjective,0.5614003
+List,"عرف مفهوم ""الاستدامة البيئية"".",Single,List,0.56126946
+List,ممَ تُصنع النقود؟,Single,List,0.5610414
+QuestionType,اشرح كيفية عمل الطائرة.,Factual,Non-Factual,0.5606176
+QuestionType,اشرحْ كيفية عمل الطائرة.,Factual,Non-Factual,0.5606176
+TemporalContext,فيمَ تكمن أهمية الصحة النفسية؟,Not Time-Related,Present,0.56050485
+List,قِس مدى تأثير وسائل التواصل الاجتماعي على المجتمع.,Single,List,0.5590531
+CognitiveLevel,لماذا يعتبر غاز الميثان العدو الأخطر لكوكب الأرض؟,Understanding,Analysis,0.5575767
+CognitiveLevel,كيف يتم تحديد سرعة الضوء؟,Analysis,Understanding,0.5554764
+QuestionType,ميِّزْ بين الثورة الصناعية والثورة الزراعية.,Factual,Non-Factual,0.55543536
+Subjectivity,ما هو رأي مصطفى صادق الرافعي في إعجاز القرآن؟,Objective,Subjective,0.5541992
+AnswerType,ما هو فهرس الكتاب؟,وصف,Entity,0.5536588
+CognitiveLevel,لماذا ظهر تنظيم داعش؟,Analysis,Understanding,0.5529298
+QuestionType,لماذا مسلسل لن أعيش في جلباب أبي هو الأكثر نجاحاً؟,Factual,Non-Factual,0.5521923
+Subjectivity,لماذا يعتبر ليونيل ميسي أفضل لاعب في العالم حاليًا؟,Objective,Subjective,0.55210257
+QuestionType,ما هو دور الحكومة في تنظيم الاقتصاد؟,Factual,Non-Factual,0.5519467
+List,من هو الخليفة الفاطمي الذي انتهت دولته نتيجة لتنازع الوزراء؟,Single,List,0.55173457
+List,عرّفْ الأمانَ.,Single,List,0.5514431
+CognitiveLevel,لماذا غرائب الصرصور تجعل منه حشرة خارقة؟,Analysis,Understanding,0.5507659
+Subjectivity,لماذا يدمن الإنسان على التدخين؟,Objective,Subjective,0.5505026
+QuestionType,لماذا يجد بعض الآباء صعوبة في التواصل مع الأبناء؟,Factual,Non-Factual,0.5496375
+CognitiveLevel,كيف ينهي الحاج أعمال الحج؟,Knowledge,Understanding,0.549299
+Subjectivity,كيف تزيد المواد المسرطنة من خطر الإصابة بالسرطان؟,Objective,Subjective,0.54674363
+Subjectivity,لماذا يقف طائر الفلامينغو على ساق واحدة؟,Objective,Subjective,0.546366
+List,استكشف تطبيقات الذكاء الاصطناعي في الرعاية الصحية.,Single,List,0.54626334
+CognitiveLevel,"كيف تناول الإمام محمد عبده مسألة إعجاز القرآن في كتابه ""رسالة التوحيد""؟",Knowledge,Understanding,0.5462314
+TemporalContext,بمَ تُقاس سرعة الضوء؟,Not Time-Related,Present,0.5462003
+Subjectivity,لماذا ينتشر فقر الدم؟,Objective,Subjective,0.5457058
+QuestionType,عدِّدْ دول أفريقيا.,Factual,Non-Factual,0.5448106
+Subjectivity,اقترحْ برامج لتطوير المهارات المهنية.,Objective,Subjective,0.54469746
+List,ما هو الدور الذي تلعبه الغابات في النظام البيئي؟,Single,List,0.544309
+QuestionType,"اعرب الجملة التالية: ""العلم نور.""",Factual,Non-Factual,0.5439897
+List,"عرف مصطلح ""الاستدامة البيئية"".",Single,List,0.5437022
+QuestionType,اشرحْ كيفية عمل البطارية.,Factual,Non-Factual,0.5429043
+QuestionParticleType,ماذا يُقصد بالعلوم البيئية؟,Interrogative Tool,Implied,0.54265183
+AnswerType,ما هي العناصر الأساسية التي تتكون منها الذرة؟,وصف,Entity,0.541999
+CognitiveLevel,لماذا سميت اللغة العربية بلغة الضاد؟,Analysis,Understanding,0.5416018
+QuestionType,لماذا يصاب البعض بنشوة جلدية عند استماعهم للموسيقى؟,Factual,Non-Factual,0.541331
+Intent,استكشف تطبيقات الذكاء الاصطناعي في الرعاية الصحية.,Informational,Inference,0.5410187
+List,ما هي العلاقة بين الميلاتونين والسرطان؟,Single,List,0.54048204
+Subjectivity,اقترحْ أفكارًا لتعزيز الثقافة المحلية.,Objective,Subjective,0.54039085
+QuestionType,لماذا نواجه الصعاب والمشكلات والعقبات والعراقيل في الحياة؟,Factual,Non-Factual,0.5392042
+Subjectivity,اقترح طرقًا لتحسين جودة الهواء في المناطق الحضرية.,Objective,Subjective,0.5386223
+QuestionType,كيف تعمل الخلية؟,Factual,Non-Factual,0.53855187
+QuestionType,"اعربْ الجملة التالية: ""قرأتُ الكتابَ بسرعةٍ.""",Factual,Non-Factual,0.5384176
+CognitiveLevel,ما هو النوع من العصيان المدني الذي يتم على نطاق واسع؟,Understanding,Knowledge,0.538247
+Subjectivity,لماذا تعد دراسة الجدوى أهم خطوات إعداد المشروع؟,Objective,Subjective,0.53802013
+QuestionType,"اعربْ الجملةَ التاليةَ: ""القلمُ جديدٌ.""",Factual,Non-Factual,0.5371383
+CognitiveLevel,ما هي الفكرة التي اقترحها إبراهيم النظام عن إعجاز القرآن؟,Knowledge,Understanding,0.53629
+QuestionType,عدِّدْ أنواع النباتات.,Factual,Non-Factual,0.5360526
+QuestionType,"رتِّبْ الأحداث في قصة ""الأميرة النائمة.""",Factual,Non-Factual,0.5358151
+Subjectivity,اقترحْ استراتيجيات لتحسين الأمن الغذائي.,Objective,Subjective,0.5357824
+Subjectivity,لماذا يُعتبر التعليم أداة أساسية لتحقيق العدالة الاجتماعية؟,Objective,Subjective,0.5352448
+Subjectivity,لماذا التخلص من الكرش ضروري للحفاظ على الصحة؟,Objective,Subjective,0.53457475
+Subjectivity,لماذا تظهر الجيوب تحت العين؟,Objective,Subjective,0.5343473
+List,ما هو الإنجاز المعماري الذي أنشأه عبد الملك بن مروان في القدس؟,Single,List,0.534317
+TemporalContext,لماذا ينتشر فقر الدم؟,Present,Not Time-Related,0.53410864
+QuestionType,كيف ينهي الحاج أعمال الحج؟,Factual,Non-Factual,0.5340275
+QuestionType,لماذا يعتبر توثيق صفحات فيس بوك الشخصية ضروريًا؟,Factual,Non-Factual,0.5339572
+QuestionType,عدِّدْ أشكال الجبال.,Factual,Non-Factual,0.53390515
+Subjectivity,اقترحْ أفكارًا لتطوير التعليم الإلكتروني.,Objective,Subjective,0.5337738
+List,ما الفرق بين الكائنات الحية وحيدة الخلية ومتعددة الخلايا؟,Single,List,0.53372353
+QuestionType,اذكر بعض المنتجات الزراعية التي حقق الأردن الاكتفاء الذاتي فيها.,Factual,Non-Factual,0.5336003
+List,اشرح كيفية عمل محطات الطاقة الكهرومائية.,Single,List,0.5335286
+Subjectivity,لماذا يعتبر الابتكار مفتاح النجاح في الشركات الناشئة؟,Objective,Subjective,0.5329234
+TemporalContext,لماذا تعتبر الرياضيات العلم النظري الرئيسي؟,Not Time-Related,Present,0.53188217
+QuestionType,ما هي الأسباب الرئيسية لزيادة معدلات السمنة؟,Factual,Non-Factual,0.5309595
+QuestionType,لماذا تعتبر الرياضيات العلم النظري الرئيسي؟,Factual,Non-Factual,0.5309409
+List,من هو مؤلف كتاب لايبر سيرفيتوريس؟,Single,List,0.5307859
+PurposeContext,"رتِّبْ الأحداث في قصة ""الأميرة النائمة.""",Information Gathering,Decision Making,0.5302726
+List,ما هو فهرس الكتاب؟,Single,List,0.5296087
+QuestionType,عدد أنواع الطاقة المتجددة المعروفة.,Factual,Non-Factual,0.5291892
+Subjectivity,لماذا تعتبر الرياضيات العلم النظري الرئيسي؟,Objective,Subjective,0.5255669
+AnswerType,كيف تعمل خلايا الوقود الهيدروجيني؟,وصف,حال,0.5253636
+CognitiveLevel,كيف يمكن تقليل انبعاثات الغازات الدفيئة؟,Analysis,Application,0.525346
+QuestionParticleType,هل استطاع المسلمون فتح القدس؟,Interrogative Tool,Implied,0.5242081
+QuestionType,كيف يعمل محرك البخار؟,Factual,Non-Factual,0.5240953
+QuestionType,ما هو الدور الذي تلعبه الغابات في النظام البيئي؟,Non-Factual,Factual,0.5240862
+CognitiveLevel,لماذا مسلسل لن أعيش في جلباب أبي هو الأكثر نجاحاً؟,Analysis,Understanding,0.5235825
+QuestionType,كيف يتشابه طهي الطعام على النار مع التعرض لفحم الكوك؟,Non-Factual,Factual,0.52274835
+TemporalContext,"كيف تناول الإمام محمد عبده مسألة إعجاز القرآن في كتابه ""رسالة التوحيد""؟",Not Time-Related,Past,0.52265036
+CognitiveLevel,ما هي فوائد ممارسة الرياضة بانتظام؟,Analysis,Understanding,0.5225903
+List,ميِّز بينَ السفرِ للترفيه والسفرِ للعمل.,Single,List,0.5225758
+CognitiveLevel,لماذا يشعر الإنسان بالخجل؟,Analysis,Understanding,0.52139235
+CognitiveLevel,ما هي المواد المسرطنة الموجودة في دخان التبغ؟,Knowledge,Understanding,0.52124894
+Subjectivity,لماذا تعد القهوة أشهر مشروب حول العالم؟,Objective,Subjective,0.52121025
+Subjectivity,لماذا تتجول خلايا السرطان في جسم المريض؟,Objective,Subjective,0.5200965
+Subjectivity,لماذا يزداد الاهتمام بالطاقة المتجددة في السنوات الأخيرة؟,Objective,Subjective,0.5200694
+CognitiveLevel,بمَ تُقاس سرعة الضوء؟,Application,Knowledge,0.5196842
+QuestionType,"ماذا يعني مصطلح ""التضخم الاقتصادي""؟",Factual,Non-Factual,0.51831216
+List,استنتج التأثير المحتمل لنمو التجارة الإلكترونية على المتاجر التقليدية.,Single,List,0.5176993
+Subjectivity,إلامَ تسعى المنظمات الخيرية؟,Objective,Subjective,0.51755
+PurposeContext,لماذا يعتبر الابتكار مفتاح النجاح في قطاع التكنولوجيا؟,Decision Making,Information Gathering,0.5169994
+List,من هو المؤسس المشارك لشركة مايكروسوفت؟,Single,List,0.516181
+Subjectivity,لماذا يعتبر الابتكار مفتاح النجاح في قطاع التكنولوجيا؟,Objective,Subjective,0.5158443
+CognitiveLevel,لماذا تحدث الزلازل؟,Understanding,Analysis,0.5157548
+List,ميز بينَ الرياضةِ والنشاطاتِ الثقافية.,Single,List,0.5152638
+Subjectivity,إلامَ يسعى الباحثون في مجال الطب؟,Objective,Subjective,0.5136955
+AnswerType,بم يُقاس الضغط الجوي؟,وصف,رقم,0.5135981
+CognitiveLevel,لماذا يحدث انتشار الأوبئة؟,Analysis,Understanding,0.51293707
+Intent,ما هو فهرس الكتاب؟,Definition,Informational,0.51207966
+List,من هو مؤسس الدولة العثمانية؟,Single,List,0.51174104
+QuestionType,"كيف تناول الإمام محمد عبده مسألة إعجاز القرآن في كتابه ""رسالة التوحيد""؟",Non-Factual,Factual,0.5116086
+Subjectivity,لماذا ينصح الأطباء برياضة المشي؟,Objective,Subjective,0.51159257
+Subjectivity,لماذا تعتبر تربية الحيوانات من الأمور المفيدة صحياً؟,Objective,Subjective,0.5110676
+QuestionType,عدد بعضًا من شركات إدارة الصيدليات الكبيرة.,Factual,Non-Factual,0.51094973
+List,فيمَ تكمن فوائد الموسيقى؟,Single,List,0.510706
+Subjectivity,ضد من فُرض الجهاد؟,Objective,Subjective,0.5106996
+QuestionType,ما هي الفوائد البيئية لإعادة التدوير؟,Factual,Non-Factual,0.5104554
+QuestionType,ما هي أسباب تلوث المياه العذبة؟,Factual,Non-Factual,0.510098
+List,ما هو تأثير الضوء الليلي على خلايا المناعية؟,Single,List,0.5093163
+TemporalContext,إلامَ يسعى الباحثون في مجال الطب؟,Not Time-Related,Future,0.50923294
+Subjectivity,إلامَ تهدف المشاريع التطوعية؟,Objective,Subjective,0.5089492
+List,اشرحْ فوائد التكنولوجيا الحديثة.,Single,List,0.5087022
+QuestionType,ميِّزْ بين الدماغ والحاسوب.,Factual,Non-Factual,0.5081047
+Subjectivity,أيان يجب على الشركات الناشئة مراجعة استراتيجياتها المالية؟,Objective,Subjective,0.5080706
+QuestionType,ما هي أهمية الرياضة وفوائدها للإنسان؟,Factual,Non-Factual,0.5079539
+List,فيمَ تكمن فوائد السفر؟,Single,List,0.50753134
+PurposeContext,ما هو دور الحكومة في تنظيم الاقتصاد؟,Information Gathering,Decision Making,0.5070062
+QuestionType,"رتبْ الكلماتَ التاليةَ: ""الأطفالُ يلعبونَ.""",Factual,Non-Factual,0.50655097
+QuestionType,رتب مراحل تطور الحاسوب من الأقدم إلى الأحدث.,Factual,Non-Factual,0.5052436
+QuestionType,علام يعتمد نجاح النظام التعليمي؟,Factual,Non-Factual,0.5049366
+QuestionType,"رتبْ الكلماتَ التاليةَ: ""البستانُ جميلٌ.""",Factual,Non-Factual,0.5046697
+QuestionType,عدِّدْ مكونات الخلية النباتية.,Factual,Non-Factual,0.5045416
+CognitiveLevel,لماذا اشتهرت مارلين مونرو؟,Analysis,Understanding,0.50415057
+QuestionType,"اعرب الجملة: ""المعلم يشرح الدرس بوضوح.""",Factual,Non-Factual,0.50350237
+PurposeContext,لماذا يُعد التعلم المستمر ضروريًا في العصر الرقمي؟,Information Gathering,Decision Making,0.5034042
+List,من هو أول رئيس للولايات المتحدة الأمريكية؟,Single,List,0.50339866
+QuestionParticleType,ماذا يحدث عندما يتفاعل الحديد مع الأكسجين؟,Interrogative Tool,Implied,0.5029764
+Subjectivity,فيمَ تعتمد الأبحاث العلمية؟,Objective,Subjective,0.50227123
+CognitiveLevel,قِس مدى تأثير وسائل التواصل الاجتماعي على المجتمع.,Evaluation,Analysis,0.50226486
+Subjectivity,اقترحْ حلولاً لمشكلة التلوث البيئي.,Objective,Subjective,0.50197333
+Subjectivity,إلامَ يسعى النظام التعليمي؟,Objective,Subjective,0.5018451
+List,ممَ يُصنع السيراميك؟,Single,List,0.5012903
+CognitiveLevel,ماذا لو كانت هناك مخلوقات بحرية تستطيع الطيران؟,Understanding,Analysis,0.5011617
+List,ما هي تركيا؟,Single,List,0.5006814
+Subjectivity,لماذا العطور والروائح تؤثر على الحالة النفسية؟,Objective,Subjective,0.50040925
+QuestionType,اذكر بعض الأعمال التي قام بها عبد الملك بن مروان.,Factual,Non-Factual,0.5000245
+QuestionParticleType,هل كانت خلافة عبد الملك بن مروان مليئة بالفتن والانقسامات؟,Interrogative Tool,Implied,0.49755877
+PurposeContext,اشرحْ عملية البناء الضوئي في النباتات.,Information Gathering,Decision Making,0.4963139
+AnswerType,متى يتم الاحتفال بيوم الأرض؟,تاريخ,ظرف زمان,0.4954712
+Intent,ما هي صيغة نترات الكالسيوم؟,Informational,Definition,0.48939013
+AnswerType,من كان العدو الرئيسي للنورمان في إيطاليا والإمبراطورية البيزنطية وأرمينيا؟,وصف,عاقل,0.48931682
+PurposeContext,عدِّدْ مجالاتَ العلمِ الحديث.,Information Gathering,Decision Making,0.48842087
+TemporalContext,ماذا يحدث في تجربة الكهرباء الساكنة؟,Not Time-Related,Present,0.48601848
+Intent,بم يُقاس الزمن؟,Informational,Calculation,0.48513708
+CognitiveLevel,لماذا يصاب البعض بنشوة جلدية عند استماعهم للموسيقى؟,Analysis,Understanding,0.4841289
+TemporalContext,ما الذي يميز التعلم الذاتي عن غيره؟,Not Time-Related,Present,0.48349464
+TemporalContext,لماذا تنتشر الإصابة بمرض شلل الوجه النصفي؟,Present,Not Time-Related,0.48188552
+CognitiveLevel,فيم يستخدم الحاسوب الكمومي؟,Knowledge,Application,0.48110464
+AnswerType,ما هو أجمل أنهار العالم؟,وصف,Entity,0.4765744
+PurposeContext,علل أهمية التخطيط المالي الشخصي.,Information Gathering,Decision Making,0.4750566
+CognitiveLevel,كيف يمكن التعامل مع الضغوط النفسية؟,Understanding,Analysis,0.47503155
+TemporalContext,عدد أنواع الطاقة المتجددة المعروفة.,Present,Not Time-Related,0.47474623
+CognitiveLevel,اشرحْ فوائد التكنولوجيا الحديثة.,Understanding,Analysis,0.47456604
+PurposeContext,عدِّدْ أنواعَ الرياضة.,Information Gathering,Decision Making,0.47408918
+CognitiveLevel,لماذا ألوان النمور تتميز بالتعدد والاختلاف؟,Understanding,Analysis,0.47368622
+PurposeContext,إذا كان بإمكانك العيش في أي بعد من الأبعاد، أي بعد ستختار؟,Information Gathering,Social interaction,0.47227815
+QuestionParticleType,علامَ تعتمدُ في تحسينِ مهاراتِك؟,Interrogative Tool,Implied,0.46859616
+QuestionParticleType,ماذا تغطي حرية التعبير؟,Interrogative Tool,Implied,0.46779978
+CognitiveLevel,"فيم يستخدم أداة الاستفهام ""علام""؟",Application,Understanding,0.46734807
+QuestionParticleType,ماذا يحدث في تجربة فصل الضوء الأبيض؟,Interrogative Tool,Implied,0.4656835
+PurposeContext,لماذا ترى أن الابتكار هو المحرك الرئيسي للنمو الاقتصادي؟,Information Gathering,Social interaction,0.46562403
+QuestionParticleType,علامَ تعتمدُ في اختيارِ الأطعمةِ الصحية؟,Interrogative Tool,Implied,0.46487558
+PurposeContext,عدِّدْ أنواعَ الأدبِ العربي.,Information Gathering,Decision Making,0.4640572
+QuestionParticleType,علامَ تعتمدُ في اختيارِ الأفلامِ للمشاهدة؟,Interrogative Tool,Implied,0.4640408
+CognitiveLevel,لماذا تظهر الجيوب تحت العين؟,Analysis,Understanding,0.46061146
+QuestionParticleType,كيف يمكن التعامل مع الضغوط النفسية؟,Interrogative Tool,Implied,0.4599648
+PurposeContext,عدد العوامل التي تؤثر على المناخ العالمي.,Information Gathering,Decision Making,0.45957944
+PurposeContext,عدِّدْ مجالاتَ العلم.,Information Gathering,Decision Making,0.4594912
+QuestionParticleType,"ماذا نعني بمصطلح ""الاحتباس الحراري""؟",Interrogative Tool,Implied,0.45790195
+CognitiveLevel,كيف يمكن تحقيق التنمية المستدامة؟,Understanding,Analysis,0.4574866
+QuestionParticleType,علامَ تعتمدُ في اختيارِ وجهاتِ السفر؟,Interrogative Tool,Implied,0.45719656
+PurposeContext,قارن بين الأدب النثري والشعري.,Information Gathering,Problem solving,0.45703587
+TemporalContext,فيمَ تكمن أهمية التعليم العالي؟,Not Time-Related,Present,0.45675963
+CognitiveLevel,ما هي مضاعفات فقر الدم؟,Knowledge,Understanding,0.45660946
+QuestionParticleType,كيف يمكن تقليل الفقر في المجتمع؟,Interrogative Tool,Implied,0.45525852
+CognitiveLevel,لماذا الرياضة مهمة لنا ولماذا ينصح بممارستها باستمرار؟,Understanding,Analysis,0.4546253
+AnswerType,ما هي الخطوات الأساسية لبدء مشروع تقني صغير؟,وصف,ظرف زمان,0.45256987
+PurposeContext,بم يُقاس الزمن؟,Information Gathering,Decision Making,0.4500668
+CognitiveLevel,اشرحْ أهمية الابتكار في العمل.,Understanding,Analysis,0.44974855
+TemporalContext,لماذا ينتشر مرض السكري؟,Present,Not Time-Related,0.4487673
+PurposeContext,ما هي العوامل التي تؤدي إلى زيادة الإنتاجية؟,Information Gathering,Decision Making,0.44828767
+QuestionParticleType,ماذا يحدث في تجربة الكهرباء الساكنة؟,Interrogative Tool,Implied,0.44824424
+TemporalContext,من يمكنه تحمل مسؤولية مدينة بأكملها إذا كانت تتنقل عبر الزمن بشكل عشوائي؟,Not Time-Related,Future,0.44615
+TemporalContext,هل يمكن للإنسان أن يتنفس في الفضاء بدون معدات؟,Not Time-Related,Future,0.44562352
+AnswerType,عدد العوامل التي تؤثر على المناخ العالمي.,وصف,Entity,0.44212556
+TemporalContext,رتِّبْ الخطوات الأساسية لإعداد تجربة علمية.,Not Time-Related,Present,0.44148004
+TemporalContext,لماذا تحدث ظاهرة الانقراض؟,Present,Not Time-Related,0.4410642
+TemporalContext,فيمَ تكمن أهمية الابتكار؟,Not Time-Related,Present,0.43953112
+CognitiveLevel,اشرحْ فوائد ممارسة الرياضة اليومية.,Application,Analysis,0.43813276
+PurposeContext,عدِّدْ فوائد الموسيقى.,Information Gathering,Decision Making,0.43785274
+PurposeContext,فيم تكمن أهمية الحفاظ على التنوع البيولوجي؟,Information Gathering,Problem solving,0.437642
+AnswerType,ما هي تركيا؟,وصف,Entity,0.43741864
+CognitiveLevel,ماذا يحدث عندما يتفاعل الحديد مع الأكسجين؟,Application,Knowledge,0.4352808
+CognitiveLevel,لماذا تعد القهوة أشهر مشروب حول العالم؟,Analysis,Understanding,0.4351996
+AnswerType,اذكر بعض التطبيقات العملية للذكاء الاصطناعي.,وصف,Entity,0.43479145
+TemporalContext,لماذا التخلص من الكرش ضروري للحفاظ على الصحة؟,Present,Not Time-Related,0.43412334
+TemporalContext,ما هو النوع من العصيان المدني الذي يتم على نطاق واسع؟,Present,Not Time-Related,0.43379715
+TemporalContext,ميِّزْ بين التعليم الإلكتروني والتعليم التقليدي.,Not Time-Related,Present,0.43355733
+AnswerType,ما هي المواد المسرطنة الموجودة في دخان التبغ؟,وصف,Entity,0.43270242
+QuestionParticleType,كيف يمكن تحقيق التنمية المستدامة؟,Interrogative Tool,Implied,0.43214658
+CognitiveLevel,"ماذا يعني مصطلح ""الناتج المحلي الإجمالي""؟",Knowledge,Analysis,0.42921802
+CognitiveLevel,"ماذا نعني بمصطلح ""الاحتباس الحراري""؟",Knowledge,Analysis,0.42826745
+Intent,ماذا حدث على القمر خلال فترة القصف الثقيل المتأخر ؟,Explanation,Informational,0.42698556
+PurposeContext,اشرح كيفية بناء الثقة بالنفس.,Information Gathering,Decision Making,0.42591763
+TemporalContext,ما هي فوائد ممارسة الرياضة بانتظام؟,Present,Not Time-Related,0.42311522
+PurposeContext,علِّلْ أهميةَ النومِ الجيد.,Information Gathering,Decision Making,0.42165446
+CognitiveLevel,عمَّ تتحدثُ في المناسبات؟,Knowledge,Understanding,0.41878268
+AnswerType,عدِّدْ فوائد الموسيقى.,وصف,Entity,0.41280228
+AnswerType,ماذا حصل لمعدّل إزالة الغابات في منطقة الأمازون البرازيلية بين سنتي 2004 و2014؟,رقم,كمية,0.41185722
+PurposeContext,إذا كان بإمكانك السفر إلى العوالم الخيالية، أي عالم ستختار؟,Information Gathering,Problem solving,0.4105555
+AnswerType,مم تستمد النباتات طاقتها اللازمة للنمو؟,Entity,وصف,0.41029614
+TemporalContext,قارن بين الأدب النثري والشعري.,Not Time-Related,Present,0.40978584
+TemporalContext,كم يساهم القطاع الزراعي في الناتج المحلي الإجمالي الأردني؟,Not Time-Related,Specific time,0.40848568
+CognitiveLevel,فيمَ تكمن فوائد الموسيقى؟,Analysis,Understanding,0.408242
+CognitiveLevel,ما هو رأي مصطفى صادق الرافعي في إعجاز القرآن؟,Knowledge,Understanding,0.40744555
+Intent,"ماذا يعني مفهوم ""الثورة الصناعية""؟",Definition,Explanation,0.4071941
+TemporalContext,رتِّبْ الخطوات الأساسية لكتابة رسالة رسمية.,Not Time-Related,Present,0.4066174
+PurposeContext,اذكر فوائد إعادة التدوير للمجتمع والبيئة.,Information Gathering,Decision Making,0.4062375
+CognitiveLevel,لماذا يشرع للمتعجل المبيت ليلتين فقط في منى؟,Knowledge,Analysis,0.40484387
+AnswerType,ما هي مضاعفات فقر الدم؟,وصف,Entity,0.40240207
+CognitiveLevel,كيف يتم استخراج النفط من باطن الأرض؟,Analysis,Understanding,0.399908
+PurposeContext,علامَ تعتمدُ في اختيارِ وجهاتِ السفر؟,Information Gathering,Social interaction,0.39971927
+TemporalContext,لماذا تباح الرؤية الشرعية من الخاطب للمخطوبة قبل الزواج؟,Not Time-Related,Present,0.3995034
+PurposeContext,ما هي التحديات التي تواجه التحول الرقمي في الشركات؟,Information Gathering,Decision Making,0.3987552
+TemporalContext,اقترحْ أفكارًا لتطوير التعليم الإلكتروني.,Not Time-Related,Present,0.3985929
+TemporalContext,كيفَ تُخططُ لمستقبلِك؟,Future,Not Time-Related,0.3979494
+TemporalContext,كيف ينهي الحاج أعمال الحج؟,Present,Not Time-Related,0.39269486
+CognitiveLevel,رتِّبْ الخطوات الأساسية لإعداد تجربة علمية.,Knowledge,Analysis,0.39128125
+TemporalContext,أعرب عن رأيك في تأثير التكنولوجيا على الأطفال.,Not Time-Related,Present,0.3905236
+CognitiveLevel,كيف استطاع صلاح الدين الأيوبي إنهاء الخلافة الفاطمية؟,Understanding,Knowledge,0.38838512
+TemporalContext,أعرب عن وجهة نظرك في أهمية الحفاظ على البيئة.,Present,Not Time-Related,0.3877151
+AnswerType,كيف يمكن دعم الابتكار في الشركات؟,حال,وصف,0.38719374
+AnswerType,كيف يمكن دعم الابتكار في الشركات؟,حال,وصف,0.38719374
+TemporalContext,لماذا يشرع للمتعجل المبيت ليلتين فقط في منى؟,Present,Not Time-Related,0.38678047
+PurposeContext,فيم تكمن أهمية الابتكار في مجال الأعمال؟,Information Gathering,Decision Making,0.38457012
+TemporalContext,رتِّبْ العناصر الكيميائية حسب العدد الذري.,Not Time-Related,Present,0.3828833
+TemporalContext,أين هو باكرز خليج الخضراء؟,Not Time-Related,Present,0.38283792
+Intent,عدد الكواكب في النظام الشمسي.,Informational,Calculation,0.3807362
+PurposeContext,فيم تكمن أهمية الابتكار في تطوير المنتجات؟,Information Gathering,Decision Making,0.3794931
+CognitiveLevel,فيمَ تكمن فوائد السفر؟,Analysis,Understanding,0.37930077
+TemporalContext,"اعرب الجملة التالية: ""العلم نور.""",Present,Not Time-Related,0.37724766
+TemporalContext,استنتج لماذا رفض أبو الحسن الرماني فكرة الصرفة.,Not Time-Related,Future,0.3749972
+CognitiveLevel,بم يتميز المناخ الاستوائي؟,Knowledge,Understanding,0.37195507
+PurposeContext,علامَ تعتمدُ في اختيارِ الأطعمةِ الصحية؟,Information Gathering,Social interaction,0.37073085
+PurposeContext,استكشف تطبيقات الذكاء الاصطناعي في الرعاية الصحية.,Information Gathering,Problem solving,0.370641
+CognitiveLevel,كيف يعمل محرك البخار؟,Knowledge,Understanding,0.36816865
+TemporalContext,علِّلْ أهميةَ النومِ الجيد.,Not Time-Related,Present,0.3621206
+TemporalContext,اذكر ثلاثة استخدامات لتقنية النانو.,Present,Not Time-Related,0.36106792
+PurposeContext,اشرح كيفية تحقيق التوازن بين العمل والحياة.,Information Gathering,Problem solving,0.35956472
+CognitiveLevel,رتِّبْ الخطوات الأساسية لكتابة رسالة رسمية.,Knowledge,Analysis,0.3578118
+QuestionParticleType,لماذا تُفضلُ السفرَ للعمل؟,Interrogative Tool,Imperative verb,0.35696554
+TemporalContext,كيف يمكن الحفاظ على المياه؟,Present,Not Time-Related,0.3560618
+TemporalContext,اشرحْ فوائد التكنولوجيا الحديثة.,Not Time-Related,Present,0.35372114
+PurposeContext,علل أهمية إعادة التدوير في المجتمع الحديث.,Information Gathering,Problem solving,0.3534289
+PurposeContext,حدد أهم أسباب التصحر في مناطق شبه صحراوية.,Problem solving,Information Gathering,0.352871
+AnswerType,ما هو أهمُ هدفٍ في حياتِك؟,وصف,ظرف زمان,0.3527194
+TemporalContext,هل يمكن للإنسان أن يعيش بدون غذاء لفترة طويلة؟,Not Time-Related,Future,0.34996817
+PurposeContext,فيم تكمن أهمية التنوع الثقافي في المجتمعات؟,Information Gathering,Problem solving,0.34895977
+PurposeContext,فيم تكمن أهمية التعليم في القضاء على الفقر؟,Information Gathering,Decision Making,0.3465582
+TemporalContext,كيف يعمل محرك البخار؟,Not Time-Related,Present,0.34604737
+CognitiveLevel,استنتج التأثير المحتمل لنمو التجارة الإلكترونية على المتاجر التقليدية.,Understanding,Analysis,0.34532803
+AnswerType,رتب مراحل تطور الحاسوب من الأقدم إلى الأحدث.,وصف,Entity,0.34519735
+TemporalContext,في أي جهة من الطريق الحرة 99 يقع الجانب الغربي للمدينة؟,Not Time-Related,Present,0.34319395
+Intent,ما هي الخطوات الأساسية لبدء مشروع تقني صغير؟,Informational,Suggestion,0.34005058
+TemporalContext,بم يتميز المناخ الاستوائي؟,Present,Not Time-Related,0.3394526
+TemporalContext,لماذا تشكل أفلام الرعب خطورة كبيرة على الصحة؟,Present,Not Time-Related,0.33739957
+TemporalContext,مم تستمد النباتات طاقتها اللازمة للنمو؟,Present,Not Time-Related,0.334288
+TemporalContext,علامَ يعتمد التحليل الكيميائي؟,Not Time-Related,Present,0.33387217
+TemporalContext,لماذا الرياضة مهمة لنا ولماذا ينصح بممارستها باستمرار؟,Not Time-Related,Present,0.3332316
+CognitiveLevel,أنى يمكن للشركات تحقيق التميز في السوق التنافسية؟,Analysis,Application,0.3330354
+PurposeContext,إذا كان بإمكانك السفر عبر الزمن، إلى أي فترة زمنية ستسافر ولماذا؟,Information Gathering,Problem solving,0.32825133
+TemporalContext,لماذا يحدث انتشار الأوبئة؟,Present,Not Time-Related,0.32763955
+CognitiveLevel,لمَ يختلف المناخ من منطقة لأخرى؟,Knowledge,Analysis,0.32743576
+TemporalContext,كيف يتم تحديد سرعة الضوء؟,Present,Not Time-Related,0.32603404
+TemporalContext,لماذا يحذر الأطباء من مخاطر دواء الربتالين؟,Present,Not Time-Related,0.32529083
+TemporalContext,احسب المسافة بين الأرض والقمر.,Present,Not Time-Related,0.32428038
+TemporalContext,احسب المسافة بين الأرض والشمس.,Present,Not Time-Related,0.32360914
+TemporalContext,من يمكنه العيش في مجتمع حيث يكون السفر عبر الزمن متاحًا للجميع؟,Not Time-Related,Future,0.32081562
+TemporalContext,ماذا يحدث في تجربة فصل الضوء الأبيض؟,Not Time-Related,Present,0.31901
+PurposeContext,لماذا يجب أن يكون لديك إرادة قوية؟,Information Gathering,Social interaction,0.31784806
+AnswerType,ما الذي حدث للطاقم على متن الطائرة خلال اختبار المقابس؟,وصف,كمية,0.3095343
+CognitiveLevel,"رتِّبْ الأحداث في قصة ""الأميرة النائمة.""",Knowledge,Analysis,0.30623135
+AnswerType,ما هي نتيجة الحملة الفرنسية على مصر؟,وصف,ظرف زمان,0.2983585
+CognitiveLevel,رتِّبْ العناصر الكيميائية حسب العدد الذري.,Analysis,Knowledge,0.29785874
+TemporalContext,كيف يمكن للحكومات تنظيم المرور إذا كانت السيارات تسير على الطرق في السماء؟,Not Time-Related,Future,0.29219317
+CognitiveLevel,استكشف تطبيقات الذكاء الاصطناعي في الرعاية الصحية.,Knowledge,Evaluation,0.28946334
+CognitiveLevel,عدد العوامل التي تؤثر على المناخ العالمي.,Analysis,Knowledge,0.28746825
+AnswerType,ما هي الحضارة التي أسسها الأمويون في الأندلس؟,وصف,Entity,0.2868546
+AnswerType,ماذا حدث على القمر خلال فترة القصف الثقيل المتأخر ؟,وصف,كمية,0.28477108
+Intent,رتب المراحل الرئيسية لدورة المياه في الطبيعة.,Informational,Suggestion,0.2757521
+AnswerType,من فاز ببطولة اكستراكلازا في 2000؟,رقم,عاقل,0.26965386
+AnswerType,بمَ تُعتبر الصحة النفسية مهمة؟,وصف,كمية,0.2682801
+AnswerType,"رتِّبْ الأحداث في قصة ""الأميرة النائمة.""",وصف,Entity,0.26565832
+Intent,ما هي التحديات التي تواجه التحول الرقمي في الشركات؟,Informational,Prediction,0.2581579
+Intent,ماذا يحدث عندما يتفاعل الحديد مع الأكسجين؟,Informational,Explanation,0.2573285
+AnswerType,استنتج لماذا رفض أبو الحسن الرماني فكرة الصرفة.,وصف,سبب,0.2551986
+CognitiveLevel,اذكر فوائد إعادة التدوير للمجتمع والبيئة.,Knowledge,Synthesis,0.25472468
+AnswerType,ما هي عائلة طيور البومة؟,وصف,ظرف زمان,0.253974
+Intent,وضح الموارد التي تتكون منها المياه في الأردن.,Explanation,Inference,0.2461656
+AnswerType,ما الذي تم تأسيسه تزامنا مع المعاهدة الأوروبية لحقوق الإنسان؟,وصف,تاريخ,0.2388174
+Intent,فيمَ تجدُ نفسَك مبدعًا؟,Informational,Opinion,0.23857734
+Intent,قِس مدى تأثير وسائل التواصل الاجتماعي على المجتمع.,Informational,Comparison,0.23743995
+AnswerType,ما هو نصيب المسلمين من الأراضي المفتوحة في عهد عمر؟,وصف,ظرف زمان,0.23376332
+AnswerType,إذا كان بإمكانك السفر عبر الزمن، إلى أي فترة زمنية ستسافر ولماذا؟,وصف,حال,0.23125777
+Intent,حدد أهم أسباب التصحر في مناطق شبه صحراوية.,Informational,Inference,0.23044135
+AnswerType,ما الذي تسبب في الحرب العالمية الثانية؟,وصف,ظرف زمان,0.2290547
+AnswerType,ضد من فُرض الجهاد؟,وصف,ظرف زمان,0.22478299
+AnswerType,من قام الأردن بإبرام اتفاقيات معه في مجال الزراعة؟,Entity,عاقل,0.22394852
+Intent,رتب مراحل معالجة البيانات في الحاسوب.,Informational,Suggestion,0.2225924
+AnswerType,ماذا سمى المؤتمر العام للأوزان والمقاييس على شرف تسلا عام 1960؟,وصف,تاريخ,0.21221304
+AnswerType,ما هي البلد الذي لديه معظم المسلمين في العالم؟,وصف,ظرف زمان,0.19623487
+AnswerType,"ماذا يعني مفهوم ""الثورة الصناعية""؟",وصف,كمية,0.19587734
+AnswerType,ما هو الإنجاز المعماري الذي أنشأه عبد الملك بن مروان في القدس؟,وصف,ظرف زمان,0.1902615
+AnswerType,من فاز بكاس العالم 1998؟,وصف,عاقل,0.1871822
