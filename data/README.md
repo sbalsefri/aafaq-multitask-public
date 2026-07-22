@@ -3,8 +3,8 @@
 This folder holds the dataset and derived split artifacts.
 
 ## What is committed here
-- `label_encoders/label_encoders.json` — class names and counts per task (no question text).
-- `splits/split_info.json` — seed and split sizes for the exact partition used in the paper.
+- `label_encoders.json` — class names and counts per task (no question text).
+- `split_info.json` — seed and split sizes for the exact partition used in the paper.
 
 ## What you must add locally
 The raw **AAFAQ** dataset is **not** redistributed here (it belongs to the original authors).
