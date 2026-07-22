@@ -1,0 +1,96 @@
+{
+  "Intent": {
+    "classes": [
+      "Calculation",
+      "Choice",
+      "Comparison",
+      "Definition",
+      "Explanation",
+      "Grammatical analysis",
+      "Inference",
+      "Informational",
+      "Interpretation",
+      "Opinion",
+      "Ordering",
+      "Planning",
+      "Prediction",
+      "Suggestion"
+    ],
+    "num_classes": 14
+  },
+  "AnswerType": {
+    "classes": [
+      "Entity",
+      "Yes/No",
+      "تاريخ",
+      "حال",
+      "رقم",
+      "سبب",
+      "ظرف زمان",
+      "عاقل",
+      "كمية",
+      "مكان",
+      "وصف"
+    ],
+    "num_classes": 11
+  },
+  "CognitiveLevel": {
+    "classes": [
+      "Analysis",
+      "Application",
+      "Evaluation",
+      "Knowledge",
+      "Synthesis",
+      "Understanding"
+    ],
+    "num_classes": 6
+  },
+  "QuestionParticleType": {
+    "classes": [
+      "Imperative verb",
+      "Implied",
+      "Interrogative Tool"
+    ],
+    "num_classes": 3
+  },
+  "QuestionType": {
+    "classes": [
+      "Factual",
+      "Non-Factual"
+    ],
+    "num_classes": 2
+  },
+  "Subjectivity": {
+    "classes": [
+      "Objective",
+      "Subjective"
+    ],
+    "num_classes": 2
+  },
+  "TemporalContext": {
+    "classes": [
+      "Future",
+      "Not Time-Related",
+      "Past",
+      "Present",
+      "Specific time"
+    ],
+    "num_classes": 5
+  },
+  "PurposeContext": {
+    "classes": [
+      "Decision Making",
+      "Information Gathering",
+      "Problem solving",
+      "Social interaction"
+    ],
+    "num_classes": 4
+  },
+  "List": {
+    "classes": [
+      "List",
+      "Single"
+    ],
+    "num_classes": 2
+  }
+}
