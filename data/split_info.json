@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "total": 5009,
+  "train": 4007,
+  "val": 501,
+  "test": 501,
+  "stratify_on": "Intent",
+  "columns": [
+    "Intent",
+    "AnswerType",
+    "CognitiveLevel",
+    "QuestionParticleType",
+    "QuestionType",
+    "Subjectivity",
+    "TemporalContext",
+    "PurposeContext",
+    "List"
+  ]
+}
