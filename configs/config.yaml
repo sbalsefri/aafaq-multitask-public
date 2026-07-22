@@ -1,0 +1,71 @@
+# ============================================================================
+# Headline configuration for the paper:
+#   "Efficient Multi-Task Arabic Question Classification with a Shared MARBERT Encoder"
+#
+# One MARBERTv2 encoder + 9 linear heads, focal loss (gamma = 5), and Kendall
+# homoscedastic uncertainty weighting. This file reproduces the main result.
+# Per-seed runs are launched with:  python -m src.rigorous_train --seed <SEED>
+# ============================================================================
+
+experiment:
+  run_name: marbert_multitask
+  seed: 42                       # overridden per run via --seed (see README)
+  notes: "Multi-task MARBERTv2 (9 heads), focal gamma=5, uncertainty weighting."
+
+data:
+  raw_path: data/AAFAQ.csv       # obtain from the original AAFAQ publication (not redistributed)
+  splits_dir: data/splits/
+  encoders_dir: data/label_encoders/
+  stratify_on: Intent
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+
+model:
+  encoder_name: UBC-NLP/MARBERTv2
+  max_length: 128
+  dropout: 0.1
+
+tasks:
+  active:
+    - Intent
+    - AnswerType
+    - CognitiveLevel
+    - QuestionParticleType
+    - QuestionType
+    - Subjectivity
+    - TemporalContext
+    - PurposeContext
+    - List
+
+loss:
+  type: focal
+  focal_gamma: 5.0
+  class_weighting: false          # headline uses no class weighting
+
+advanced:
+  use_uncertainty_weighting: true # Kendall (2018) homoscedastic UW -- headline
+  use_rdrop: false
+  label_smoothing: 0.0
+
+training:
+  batch_size: 32
+  epochs: 20
+  patience: 5
+  learning_rate: 2.0e-05          # encoder LR; heads use 10x internally
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  fp16: true
+  gradient_accumulation_steps: 1
+
+evaluation:
+  average_across_tasks: true
+  primary_metric: macro_f1
+
+logging:
+  results_dir: ./results
+  save_dir: ./checkpoints
+  log_dir: ./logs
+
+multi_seed:
+  seeds: [42, 123, 456, 789, 2024]

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Efficient Multi-Task Arabic Question Classification with a Shared MARBERT Encoder"
+authors:
+  - family-names: Alsafari
+    given-names: Safa
+    orcid: "https://orcid.org/0000-0001-8023-8833"
+  - family-names: Yafoz
+    given-names: Ayman
+    orcid: "https://orcid.org/0000-0003-0320-2583"
+license: MIT
+repository-code: "https://github.com/sbalsefri/aafaq-multitask"
+version: "1.0.0"
+date-released: "2026-07-22"
+keywords:
+  - Arabic natural language processing
+  - multi-task learning
+  - question classification
+  - MARBERT
+  - focal loss
+  - low-resource NLP
+preferred-citation:
+  type: article
+  title: "Efficient Multi-Task Arabic Question Classification with a Shared MARBERT Encoder"
+  authors:
+    - family-names: Alsafari
+      given-names: Safa
+    - family-names: Yafoz
+      given-names: Ayman
+  year: 2026
+  notes: "Manuscript under review."
