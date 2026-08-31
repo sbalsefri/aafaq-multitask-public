@@ -22,15 +22,15 @@
     "classes": [
       "Entity",
       "Yes/No",
-      "تاريخ",
-      "حال",
-      "رقم",
-      "سبب",
-      "ظرف زمان",
-      "عاقل",
-      "كمية",
-      "مكان",
-      "وصف"
+      "Historical",
+      "Present",
+      "Number",
+      "Reason",
+      "Time_Adverb",
+      "Animate",
+      "Quantity",
+      "Location",
+      "Description"
     ],
     "num_classes": 11
   },
