@@ -1,8 +1,8 @@
 # Efficient Multi-Task Arabic Question Classification with a Shared MARBERT Encoder
 
 > One **MARBERTv2** encoder with **nine** classification heads matches nine separate
-> single-task models on the **AAFAQ** dataset — at about **9× less storage** and
-> **10× less inference time** when all nine outputs are required.
+> single-task models on the **AAFAQ** dataset — at about **9x less storage** and
+> **10x less inference time** when all nine outputs are required.
 
 Code, split metadata, and analysis scripts for the paper
 *"Efficient Multi-Task Arabic Question Classification with a Shared MARBERT Encoder"*
@@ -10,7 +10,7 @@ Code, split metadata, and analysis scripts for the paper
 
 A single MARBERTv2 encoder with nine task-specific linear heads is trained jointly on
 AAFAQ (5,009 Modern Standard Arabic questions annotated along nine dimensions), using
-**focal loss (γ = 5)** and **Kendall homoscedastic uncertainty weighting**. The
+**focal loss (gamma = 5)** and **Kendall homoscedastic uncertainty weighting**. The
 multi-task model is statistically equivalent to nine single-task baselines on mean
 macro-F1 (five seeds), while producing all nine outputs from one shared encoder.
 
@@ -18,8 +18,8 @@ macro-F1 (five seeds), while producing all nine outputs from one shared encoder.
 - **One model, nine tasks** — a shared encoder replaces nine per-task models.
 - **Statistically equivalent, not just non-significant** — a two one-sided test (TOST)
   finds the multi-task and single-task settings equivalent on mean macro-F1 within a
-  ±0.02 margin across five seeds.
-- **Measured efficiency** — ~9× fewer parameters/disk and ~10× faster inference when all
+  +/-0.02 margin across five seeds.
+- **Measured efficiency** — ~9x fewer parameters/disk and ~10x faster inference when all
   nine outputs are required.
 - **Reproducible** — deterministic 80/10/10 split (stratified on Intent), multi-seed
   protocol, bootstrap confidence intervals, and paired significance testing.
@@ -30,14 +30,14 @@ macro-F1 (five seeds), while producing all nine outputs from one shared encoder.
 ```
 .
 ├── configs/
-│   └── config.yaml              # headline configuration (γ=5, UW on, 9 tasks, 20 epochs)
+│   └── config.yaml              # headline configuration (gamma=5, UW on, 9 tasks, 20 epochs)
 ├── src/
 │   ├── preprocess.py            # deterministic stratified 80/10/10 split + label encoders
 │   ├── dataset.py               # PyTorch Dataset for AAFAQ
 │   ├── model.py                 # shared encoder + 9 linear heads
 │   ├── rigorous_train.py        # headline trainer (focal + uncertainty weighting, multi-seed)
 │   ├── evaluate.py              # val/test evaluation, confusion matrices, error CSV
-│   ├── statistical_analysis.py  # multi-seed mean±std, bootstrap CIs, paired bootstrap test
+│   ├── statistical_analysis.py  # multi-seed mean+/-std, bootstrap CIs, paired bootstrap test
 │   └── error_analysis.py        # per-class reports + confusion matrices from saved predictions
 ├── data/                        # dataset + split artifacts (see data/README.md)
 ├── requirements.txt
@@ -100,8 +100,8 @@ without re-training.
 
 ## Configuration
 All hyperparameters live in `configs/config.yaml`. The released values are the paper's
-headline configuration: MARBERTv2 encoder, nine active tasks, focal loss γ = 5, class
-weighting off, **uncertainty weighting on**, encoder LR 2e-5 (heads 10×), 20 epochs,
+headline configuration: MARBERTv2 encoder, nine active tasks, focal loss gamma = 5, class
+weighting off, **uncertainty weighting on**, encoder LR 2e-5 (heads 10x), 20 epochs,
 early-stopping patience 5, and seeds 42/123/456/789/2024.
 
 ---
@@ -113,7 +113,7 @@ If you use this code, please cite the paper (see `CITATION.cff`):
   title   = {Efficient Multi-Task Arabic Question Classification with a Shared MARBERT Encoder},
   author  = {Alsafari, Safa and Yafoz, Ayman},
   year    = {2026},
-  note    = {Manuscript under review}
+  note    = {Submitted to PeerJ Computer Science. Code: https://doi.org/10.5281/zenodo.21500746}
 }
 ```
 
